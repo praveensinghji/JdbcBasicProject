@@ -1,0 +1,8 @@
+create table myTable(
+`requestNo` varchar(18) not null primary key unique,
+`firstName` varchar(15),
+`lastName` varchar(15),
+`school` varchar(50)
+);
+
+select * from myTable;
